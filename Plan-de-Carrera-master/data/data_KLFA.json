@@ -1,0 +1,67 @@
+{
+  "s1": [
+    ["Anatomía descriptiva y topográfica I", "A1627", 5, "BIOL"],
+    ["Bioquímica", "A1628", 5, "QUIM"],
+    ["Citología e histología", "A1629", 5, "BIOL"],
+    ["Educación para la salud", "A1630", 5, "SALUD"],
+    ["Introducción al pensamiento científico", "A1631", 5, "HUM"],
+    ["Biofísica", "A1632", 5, "FIS"],
+    ["Psicosociales", "A1633", 5, "PSICO"],
+    ["Embriología y desarrollo", "A1634", 5, "BIOL"],
+    ["Historia de la kinesiología", "A1635", 5, "HUM"]
+  ],
+  "s2": [
+    ["Fisiología", "A1636", 5, "BIOL", ["A1627", "A1628", "A1629", "A1634"]],
+    ["Anatomía descriptiva y topográfica II", "A1637", 5, "BIOL", ["A1627"]],
+    ["Biomecánica y análisis del movimiento", "A1638", 5, "FIS", ["A1627", "A1632", "A1637"]],
+    ["Psicología social e institucional", "A1639", 5, "PSICO"],
+    ["Epidemiología", "A1640", 5, "SALUD"],
+    ["Técnicas y evaluaciones kinésicas I", "A1641", 5, "KINE", ["A1627", "A1632", "A1637"]],
+    ["Atención primaria de la salud I", "A1642", 5, "SALUD"],
+    ["Kinefilaxia", "A1643", 5, "KINE"],
+    ["Administración, organización y gestión de servicios de la salud", "A1644", 5, "ADMI", ["A1630"]],
+    ["Diagnóstico por imágenes", "A1645", 5, "SALUD"]
+  ],
+  "s3": [
+    ["Técnica y evaluaciones kinésicas II", "A1646", 5, "KINE", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1637", "A1641"]],
+    ["Kinefisiatría pediátrica y neonatal", "A1647", 5, "KINE", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1637", "A1638", "A1641", "A1645"]],
+    ["Kinefisiatría cardiorrespiratoria", "A1648", 5, "KINE", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1637", "A1638", "A1641", "A1645"]],
+    ["Kinefisiatría traumato-ortopédica", "A1649", 5, "KINE", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1637", "A1638", "A1641", "A1645"]],
+    ["Prótesis y ortesis", "A1650", 5, "KINE", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1641"]],
+    ["Atención comunitaria I", "A1651", 5, "SALUD", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1642"]],
+    ["Psicomotricidad y estimulación temprana", "A1652", 5, "PSICO", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1641", "A1643"]],
+    ["Farmacología general", "A1653", 5, "QUIM", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1636"]],
+    ["Fisioterapia I", "A1654", 5, "KINE", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635"]]
+  ],
+  "s4": [
+    ["Técnicas y evaluaciones kinésicas III", "A1655", 5, "KINE", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1646"]],
+    ["Atención comunitaria II", "A1656", 5, "SALUD", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1651"]],
+    ["Metodología de la investigación", "A1657", 5, "HUM", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645"]],
+    ["Historia argentina y latinoamericana de las ciencias de la salud", "A1658", 5, "HUM", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645"]],
+    ["Deontología", "A1659", 5, "HUM", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1647", "A1648", "A1649"]],
+    ["Intensivismo", "A1660", 5, "SALUD", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644", "A1645", "A1647", "A1648", "A1649"]],
+    ["Fisioterapia II", "A1661", 5, "KINE", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1653", "A1654"]],
+    ["Kinefisiatría gerontológica", "A1662", 5, "KINE", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1649", "A1653", "A1654"]],
+    ["Kinefisiatría estética", "A1663", 5, "KINE", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1653", "A1654"]],
+    ["Kinefisiatría neurológica", "A1664", 5, "KINE", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1646", "A1650"]],
+    ["Bioética y ética profesional", "A1665", 5, "HUM", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645"]]
+  ],
+  "s5": [
+    ["Kinefisiatría deportiva", "A1666", 5, "KINE", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1646", "A1647", "A1648", "A1649", "A1650", "A1651", "A1652", "A1653", "A1654", "A1661"]],
+    ["Rehabilitación computacional", "A1667", 5, "INFO", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1646", "A1647", "A1648", "A1649", "A1650", "A1651", "A1652", "A1653", "A1654", "A0904", "A0911"]],
+    ["Auditoría y kinesiología legal", "A1668", 5, "SALUD", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1646", "A1647", "A1648", "A1649", "A1650", "A1651", "A1652", "A1653", "A1654"]],
+    ["Kinesiología ocupacional y laboral", "A1669", 5, "KINE", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1646", "A1647", "A1648", "A1649", "A1650", "A1651", "A1652", "A1653", "A1654"]],
+    ["Ergonomía", "A1670", 5, "KINE", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1646", "A1647", "A1648", "A1649", "A1650", "A1651", "A1652", "A1653", "A1654"]],
+    ["Kinefisiatría en cuidados paliativos", "A1671", 5, "SALUD", ["A1636", "A1637","A1638","A1639","A1640","A1641","A1642","A1643","A1644","A1645", "A1646", "A1647", "A1648", "A1649", "A1650", "A1651", "A1652", "A1653", "A1654", "A1656", "A1659", "A1660"]],
+    ["Seminario de integración y práctica profesional", "A1672", 5, "KINE", ["A1627", "A1628", "A1629", "A1630", "A1631", "A1632", "A1633", "A1634", "A1635", "A1636", "A1637", "A1638", "A1639", "A1640", "A1641", "A1642", "A1643", "A1644", "A1645", "A1646", "A1647", "A1648", "A1649", "A1650", "A1651", "A1652", "A1653", "A1654", "A1655", "A1656", "A1657", "A1658", "A1659", "A1660", "A1661", "A1662", "A1663", "A1664", "A1665", "A1666", "A1667", "A1668", "A1669", "A1670"]]
+  ],
+
+  "transversales": [
+    ["Inglés I", "A0901", 5, "IDIOM"],
+    ["Inglés II", "A0902", 5, "IDIOM"],
+    ["Inglés III", "A0903", 5, "IDIOM"],
+    ["Inglés IV", "A0904", 5, "IDIOM"],
+    ["Computación I", "A0911", 5, "INFO"],
+    ["Computación II", "A0912", 5, "INFO"]
+  ]
+}

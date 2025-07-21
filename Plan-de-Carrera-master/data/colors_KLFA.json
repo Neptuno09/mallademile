@@ -1,0 +1,12 @@
+{
+  "BIOL": ["#4CAF50", "Biología"],
+  "QUIM": ["#FF9800", "Química"],
+  "SALUD": ["#2196F3", "Salud Pública"],
+  "PSICO": ["#9C27B0", "Psicología"],
+  "FIS": ["#00BCD4", "Física y Biomecánica"],
+  "HUM": ["#795548", "Humanidades"],
+  "KINE": ["#E91E63", "Kinesiología"],
+  "ADMI": ["#3F51B5", "Administración"],
+  "INFO": ["#009688", "Informática"],
+  "IDIOM": ["#607D8B", "Idiomas"]
+}
